@@ -1,3 +1,5 @@
+Python>=3.8 or later
+
 tensorflow>=2.8.0
 
 numpy>=1.21.0
