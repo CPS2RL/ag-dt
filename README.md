@@ -31,6 +31,7 @@ Measuring FST is cruical for agricultural systmes to ensure efficient farming an
 ## Digital Twin
 Digital twin is one of the growing technology for automation and its simulation aspects can be help to create a virutal connection with the physical plants. It can enhance the decision-making process by integrating data driven analysis. We use this digital twin concept and try to connect it with our physical weather stations.
 
-Select an appropriate model for a dataset and run `All_models_training_time_memory_measures.ipynb` to train a model. 
+Select an appropriate model for a dataset and run `All_models_training.ipynb` to train a model.
+Run `Inference Time and Memory.ipynb` for measuring system performance interms of inference time and memory usage.
 Run `fst-prediction-all-models.ipynb` for any prediction behavior analysis with and without inconsistent data.
 Run `DT_connection.ipynb` for connect a weather statition through API (for our case, Zentra Cloud) and get output from the trained models. 
