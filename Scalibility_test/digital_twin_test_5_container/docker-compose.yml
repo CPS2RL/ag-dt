@@ -1,0 +1,58 @@
+version: '3'
+services:
+  model1:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model2:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model3:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model4:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model5:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+

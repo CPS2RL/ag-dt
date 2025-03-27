@@ -1,0 +1,333 @@
+version: '3'
+services:
+  model1:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+  model2:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model3:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model4:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model5:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model6:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+  model7:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model8:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model9:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model10:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model11:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+  model12:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model13:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model14:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model15:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model16:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+  model17:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model18:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model19:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model20:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model21:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+  model22:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model23:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model24:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model25:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model26:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+  model27:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model28:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model29:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model30:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+

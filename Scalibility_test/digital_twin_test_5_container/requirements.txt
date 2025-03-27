@@ -1,0 +1,10 @@
+tensorflow
+pandas
+numpy
+scikit-learn
+psutil
+docker
+prometheus_client
+memory_profiler
+matplotlib
+seaborn
