@@ -33,6 +33,7 @@ def create_resnet_model(input_shape, num_classes):
     
     x = GlobalAveragePooling1D()(x)
     x = Dense(256, activation='relu')(x)
+    x = layers.Dropout(0.2)(x)
     outputs = Dense(num_classes, activation='softmax')(x)
     
     model = Model(inputs, outputs)
