@@ -11,8 +11,10 @@ Measuring FST is cruical for agricultural systmes to ensure efficient farming an
 ## Digital Twin
 Digital twin is one of the growing technology for automation and its simulation aspects can be help to create a virutal connection with the physical plants. It can enhance the decision-making process by integrating data driven analysis. We use this digital twin concept and try to connect it with our physical weather stations.
 
-Select an appropriate model for a dataset and configure `train.py` to train a model and `main.py` to evaluate it.
-Run `doceker-compose up--build` in command promt for measuring system performance interms of inference time and memory usage in containized environment.
-Use case study-1 for predicting weather attributes.
-Use case study-2 for any prediction behavior analysis with and without inconsistent data.
-Run `dt.py` for connect a weather statition through API (for our case, Zentra Cloud) and get output from the trained models. 
+Select an appropriate model for a dataset and configure `train.py` to train the model.  
+Configure `main.py` to evaluate the trained model.  
+Run `docker-compose up --build` in the command prompt to measure system performance in terms of inference time and memory usage in a containerized environment.  
+Use **Case Study-1** for predicting weather attributes.  
+Use **Case Study-2** for behavioral prediction analysis with and without inconsistent data.  
+Run `dt.py` to connect to a weather station through the API (Zentra Cloud in this case) and get output from the trained models.  
+
