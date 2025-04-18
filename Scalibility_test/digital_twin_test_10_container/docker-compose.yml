@@ -111,3 +111,61 @@ services:
           cpus: '1'
           memory: 4G
 
+  model11:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  model12:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+
+  model13:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+
+  model14:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+
+  model15:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+      - ./model:/app/model
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
