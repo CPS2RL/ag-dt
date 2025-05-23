@@ -24,7 +24,7 @@ def main():
 
     file_path_test = 'data/quincy-test.csv'
     X_test, y_test, feature_columns, scaled_features, df_test = load_and_preprocess_data(file_path_test)
-    sequence_length = 24
+    sequence_length = 48
     target_datetimes = df_test['datetime'].iloc[sequence_length:].reset_index(drop=True)
     
     # Load the model
