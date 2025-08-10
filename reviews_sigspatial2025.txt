@@ -1,0 +1,80 @@
+------------------------------------------------------------
+Review 1
+------------------------------------------------------------
+Summary:
+This work develops a framework for detecting inconsistent weather data in agricultural settings. Although the weather stations are spatially distributed across the farms, the proposed method makes limited use of spatial information in its computation.
+
+Strong Points:
+S1: The studied problem is interesting for a newly scenario in the smart agriculture.
+S2: The overall writing is clear and easy to understand.
+S3: The authors conducted comprehensive evaluation to measure the effectiveness of the proposed method.
+
+Weak Points:
+W1: It is unclear whether the research problem is sufficiently challenging. In Fig. 3, four types of data inconsistencies are presented, each showing clear patterns. The reviewer questions whether these inconsistencies can be detected using simple rule-based or pattern-based methods, rather than requiring a neural network (NN) model. Furthermore, the evaluation does not include comparisons with such straightforward baselines, which would help justify the necessity of using an NN-based approach.
+
+W2: The paper discusses four types of faults. Is the collected dataset limited to only these four types? Clarification is needed on whether the dataset is comprehensive or restricted.
+
+W3: When 5% of the training data includes inconsistent samples, the precision of some methods for certain noise classes is noticeably low. The authors should provide an explanation for this performance degradation.
+
+W4: The technical contribution appears limited. Although the paper is submitted to the application track, the studied problem is still expected to present specific challenges that warrant non-trivial adaptations or new designs based on existing methods. These should be more clearly articulated and justified.
+
+W5: Why is synthetic data needed for model training? Is it due to the lack of sufficient inconsistent data points in the historical dataset?
+
+Detailed Comments:
+As stated in the weak points.
+
+Recommendation:
+-1: Weak Reject
+
+------------------------------------------------------------
+Review 2
+------------------------------------------------------------
+Summary:
+This paper describes an open-source orchestration engine designed for High-Performance Computing (HPC) environments. The engine achieves scalability by leveraging substantial compute and storage on HPC to process UAS imagery efficiently at scale. The engine integrates established tools, such as OpenDroneMap, for orthomosaic generation, creates image tiles from on-farm and small-plot replicated field trials, extracts phenotypic information using AI models, and provides visualizations of image and inference data for researchers and farmers.
+
+Strong Points:
+S1: The engine can automate and scale the transformation of raw aerial imagery into structured, AI-ready datasets. It can lower the barrier for high-impact research by enabling scientists to spend less time on data wrangling and more time developing and evaluating novel AI models.
+
+S2: It may serve as a catalyst for creating larger, high-quality, and reusable agricultural datasets that can help ground AI research in real-world applications.
+
+S3: The source code for the engine and a demonstration website with results are made public available.
+
+Weak Points:
+W1: It seems that the background and related work are not reviewed sufficient. Few papers are reviewed in this section.
+
+W2: The method should be described clearly enough to be implemented by the readers.
+
+W3: It is better to describe how the performances are evaluated. Please describe the problem and method with equations.
+
+Detailed Comments:
+This paper describes an open-source orchestration engine designed for High-Performance Computing (HPC) environments. It allows researchers to spend less time processing data and more time developing impactful models and applications, thereby accelerating agricultural research and innovation. However, the authors are recommended to review sufficient related work and describe the technical part so that the reader understand it clearly and can implement it, even though the code is publicly available.
+
+Recommendation:
+2: Accept
+
+------------------------------------------------------------
+Review 3
+------------------------------------------------------------
+Summary:
+This paper describes the implementation of CEREALIA, a software system for data analysis of agricultural variables (e.g., temperature, wind speed) under imperfect data conditions. The system can detect and classify data anomaly types in the data feed and make imputation accordingly. The implementation includes nine different kinds of commonly used deep learning algorithms for time series analysis. The performance of the system was showcased with two case studies, and the software codes are made publicly available on GitHub.
+
+Strong Points:
+S1: The implementation of the system takes a heavy software engineering work and the system can be potentially useful.
+
+S2: The manuscript is well organized and the writing is easy to follow.
+
+Weak Points:
+W1: Some data anomaly detection details were not given.
+W2: The study focuses on time series analysis without much discussion on spatial components.
+
+Detailed Comments:
+- The data classification of data inconsistencies seems to be overly simplified. It simply compares the difference between observations and estimations, and labels the data as anomaly when the differences are large enough. It can be useful to give a tolerance time window before making the decision.
+
+- Four different types of inconsistency were simulated and injected into the observations separately. In reality, data inconsistencies are uncontrolled and different inconsistencies can happen at the same time. It is not clear how these situations would be handled.
+
+- The models were trained based on historical data, which can also suffer from data anomaly. No discussions were given about how the anomaly in training data were handled.
+
+- The data analysis focuses on time series anomaly detection. Although the case studies were from agriculture, no spatial components were included. This could limit the interests to the conference audiences.
+
+Recommendation:
+1: Weak Accept
